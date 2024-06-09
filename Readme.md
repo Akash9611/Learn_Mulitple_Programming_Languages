@@ -14,7 +14,7 @@
 
 ## 1. Data Types
 
-There are 2 types of data types
+There are 2 types of data types 
 
 ### 1. Primitive Data Types:-
 
