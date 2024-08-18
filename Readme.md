@@ -24,20 +24,26 @@ Basic types built into a programming language(e.g int, char, float, boolean in j
 
 Also known as reference types, these includes classes, arrays and interfaces in java.
 
-### 1.1 C++
+## 1.1 C++
 
-#### 1.1.1 Primitive data types in C++ :-
-    int: Integer type
-    char: Character type
-    bool: Boolean type (true or false)
-    float: Floating point type(single precision)
-    double: Floating point type(double precision)
-    void: Represent absence of type
-    wchar_t: Wide character type
+**1.1.1 Primitive data types in C++ :-**
+- int: Integer type
+- char: Character type
+- bool: Boolean type (true or false)
+- float: Floating point type(single precision)
+- double: Floating point type(double precision)
+- void: Represent absence of type
+- wchar_t: Wide character type
 
-#### 1.1.2 Non-primitive data types in C++ :-
-
-### 1.2 Java
+***1.1.2 Non-primitive data types in C++ :-***
+- Array:
+- Pointers: 
+- Assignments:
+- Structure (struct):
+- Union:
+- Classes:
+- Enum: 
+## 1.2 Java
 
 #### 1.1.1 Primitive data types in Java :-
 
