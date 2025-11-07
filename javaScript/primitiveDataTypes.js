@@ -15,3 +15,8 @@ console.log("Undefined: ", e);
 console.log("Null: ", f);
 console.log("Symbol: ", g);
 console.log("Big Integer: ", h);
+
+// Summary:
+// - JavaScript has several primitive data types: Number (both integer and float), String, Boolean, Undefined, Null, Symbol, and BigInt.
+// - Primitive data types are immutable and are compared by value.
+// - 'undefined' indicates a variable that has been declared but not assigned a value, while 'null' is an assignment value that represents no value. Meaning null is "empty" or "no value" and undefined means "value not assigned".
