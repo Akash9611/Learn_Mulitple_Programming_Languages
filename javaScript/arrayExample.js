@@ -21,3 +21,14 @@ console.log(Math.round(average)); // Output: 64
 console.log(parseInt(average)); // Output: 63
 // another way to convert to integer by type coercion
 console.log(average.toFixed(0)); // Output: 64
+
+
+
+// Array Methods Summary:
+// Array is collection of items stored at contiguous memory locations.
+// Arrays are mutable in JavaScript.
+// Common array methods include:
+// - length: Returns the number of elements in an array.
+// - index access: Access elements using their index (e.g., arr[0] for the first element).
+// - push(): Adds one or more elements to the end of an array and returns the new length of the array.
+// - pop(): Removes the last element from an array and returns that element.
