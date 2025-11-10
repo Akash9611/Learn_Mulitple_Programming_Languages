@@ -33,5 +33,11 @@ console.log(average.toFixed(0)); // Output: 64
 // - push(): Adds one or more elements to the end of an array and returns the new length of the array.
 // - pop(): Removes the last element from an array and returns that element.
 // - toString(): Converts an array to a string, with elements separated by commas.
+// - concat(): Merges two or more arrays and returns a new array.
 // - join(): Converts an array to a string, with elements separated by a specified separator.
+// - unshift(): Adds one or more elements to the beginning of an array and returns the new length of the array.
+// - shift(): Removes the first element from an array and returns that element.
+// - s;lice(): Returns a shallow copy of a portion of an array into a new array object.
+// - splice(): Changes the contents of an array by removing or replacing existing elements and/or adding new elements in place.
+// - forEach(): Executes a provided function once for each array element.
 // - Arrays can store elements of different data types, including numbers, strings, objects, and even other arrays.
