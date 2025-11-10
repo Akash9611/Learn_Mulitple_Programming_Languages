@@ -4,8 +4,8 @@
 let marks = [88, 99, 77, 66, 55, 44, 36, 40, 70];
 
 let sum = 0;
-for (let i = 0; i < marks.length; i++) {
-    sum += marks[i]; // sum = sum + marks[i];
+for(let value of marks) { // 
+    sum += value; // sum = sum + marks[i];
     // console.log(marks[i]);
 }
 let average = sum / marks.length; // sum of all elements / number of elements = average
@@ -32,3 +32,6 @@ console.log(average.toFixed(0)); // Output: 64
 // - index access: Access elements using their index (e.g., arr[0] for the first element).
 // - push(): Adds one or more elements to the end of an array and returns the new length of the array.
 // - pop(): Removes the last element from an array and returns that element.
+// - toString(): Converts an array to a string, with elements separated by commas.
+// - join(): Converts an array to a string, with elements separated by a specified separator.
+// - Arrays can store elements of different data types, including numbers, strings, objects, and even other arrays.
