@@ -7,7 +7,7 @@
 // Example 1: Using forEach to print each element of an array
 let fruits = ['Apple', 'Banana', 'Mango', 'Orange'];
 
-fruits.forEach(function(fruit, index){
+fruits.forEach(function (fruit, index) {
     console.log(`Fruit at index ${index} is: ${fruit}`);
 });
 
@@ -18,3 +18,7 @@ numbers.forEach((num) => {
     sum += num;
 });
 console.log(`Sum of all numbers is: ${sum}`);
+
+// Interview Level Question:
+// Q. What is higher order function or method in JavaScript?
+// -> Higher order function- are the javascript function that can take another function as an argument or return a function as a result.
