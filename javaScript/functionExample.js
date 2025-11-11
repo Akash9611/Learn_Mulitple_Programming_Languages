@@ -40,3 +40,17 @@ const vowels2 = (str) => {
 
 console.log("-------Arrow Function-----------");
 vowels2("Master keeps life safe");
+
+
+
+
+// In javaScript, function can be passed as an argument to another function and can also be returned from another function.
+function abc(){
+    console.log("Hello");
+}
+
+function xyz(abc){
+    return abc;
+}
+
+xyz(abc)(); xyz(abc()); // function passed as argument and invoked inside another function
