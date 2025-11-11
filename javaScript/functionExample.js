@@ -1,5 +1,5 @@
 // Function - A reusable block of code that performs a specific task
-// It can take inputs (parameters) and return an output (return value)
+// It can take inputs (parameters) and return an output (return charue)
 // Two ways to define functions in JavaScript: Function Declaration and Function Expression
 
 
@@ -10,10 +10,10 @@ function vowels(str) {
     let vowel = [];
     let count = 0;
     let strVal = str.toLowerCase();
-    for (val of strVal) {
-        if ((val == 'a') || (val == 'e') || (val == 'i') || (val == 'o') || (val == 'u')) {
+    for (char of strVal) {
+        if ((char == 'a') || (char == 'e') || (char == 'i') || (char == 'o') || (char == 'u')) {
             count++
-            vowel.push(val);
+            vowel.push(char);
         }
     }
     console.log(vowel);
@@ -28,9 +28,9 @@ vowels('AkashHello World')
 const vowels2 = (str) => {
     let vowel = [];
     let strVal = str.toLowerCase();
-    for (val of strVal) {
-        if ((val == 'a') || (val == 'e') || (val == 'i') || (val == 'o') || (val == 'u')) {
-            vowel.push(val);
+    for (char of strVal) {
+        if ((char == 'a') || (char == 'e') || (char == 'i') || (char == 'o') || (char == 'u')) {
+            vowel.push(char);
         }
     }
     console.log(vowel);
