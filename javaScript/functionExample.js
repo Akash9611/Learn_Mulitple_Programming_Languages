@@ -22,3 +22,21 @@ function vowels(str) {
 }
 
 vowels('AkashHello World')
+
+
+//Q. Create arrow function to perform same action
+const vowels2 = (str) => {
+    let vowel = [];
+    let strVal = str.toLowerCase();
+    for (val of strVal) {
+        if ((val == 'a') || (val == 'e') || (val == 'i') || (val == 'o') || (val == 'u')) {
+            vowel.push(val);
+        }
+    }
+    console.log(vowel);
+    console.log(`Number of Vowels in given ${str} is: ` + vowel.length);
+}
+
+
+console.log("-------Arrow Function-----------");
+vowels2("Master keeps life safe");
