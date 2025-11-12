@@ -10,7 +10,7 @@ public class reverseString {
         // }
 
         //Print string in reverse without using reverse function
-        for (int i = name.length() - 1; i >= 0; i--) {
+        for (int i = name.length() - 1; i >= 0; i--) { // for loop starts from last index to 0
             System.out.println(name.charAt(i)); // h s a k A
         }
     }
