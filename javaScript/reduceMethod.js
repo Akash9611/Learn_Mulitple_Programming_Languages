@@ -16,4 +16,4 @@ console.log(sum);
 let sumWithInitialValue = numbers.reduce((accumulator, currentValue) => {
     return accumulator + currentValue
 }, initialValue); // how it works - The initial value is added to the sum of the array elements. because the accumulator starts with the initial value (10 in this case) instead of the first element of the array.
-console.log(sumWithInitialValue); 
+console.log(sumWithInitialValue);
