@@ -13,5 +13,27 @@ public class reverseString {
         for (int i = name.length() - 1; i >= 0; i--) { // for loop starts from last index to 0
             System.out.println(name.charAt(i)); // h s a k A
         }
+
+        // Print reversed string in a single line
+        String reversed = "";
+        for (int i = name.length() - 1; i >= 0; i--) {
+            reversed += name.charAt(i);
+        }
+        System.out.println("Reversed String: " + reversed);
+
+        // Another approach using char array
+        char[] charArray = name.toCharArray();
+        String reversed2 = "";
+        for (int i = charArray.length - 1; i >= 0; i--) {
+            reversed2 += charArray[i];
+        }
+        System.out.println("Reversed String (char array): " + reversed2);
+
+        // without using charAt()
+        String reversed3 = "";
+        for (int i = name.length() - 1; i >= 0; i--) {
+            reversed3 += name.substring(i, i + 1);
+        }
+        System.out.println("Reversed String (substring): " + reversed3);
     }
 }
