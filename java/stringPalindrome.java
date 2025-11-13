@@ -27,7 +27,8 @@ public class stringPalindrome {
     public static void reverseString() {
         System.out.println("--- Starting reverseString method ---");
         String str = "madam";
-        String reversed = "";
+        String reversed = ""; // this string will hold the reversed version of str, initially empty so can be manipulated
+
         for (int i = str.length() - 1; i >= 0; i--) {
             reversed += str.charAt(i);
         }
