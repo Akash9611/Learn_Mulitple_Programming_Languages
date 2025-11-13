@@ -35,5 +35,12 @@ public class reverseString {
             reversed3 += name.substring(i, i + 1);
         }
         System.out.println("Reversed String (substring): " + reversed3);
+
+        // With reverse method
+
+        String name2 = "Narayan";
+        StringBuilder sb = new StringBuilder(name2);
+        sb.reverse();
+        System.out.println("Reversed String (StringBuilder): " + sb.toString());
     }
 }
