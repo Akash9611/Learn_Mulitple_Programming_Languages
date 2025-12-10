@@ -295,7 +295,7 @@ console.log(obj); // { b: 2 }
 **Question:** What's the difference between `==` and `===` in JavaScript?
 
 **Answer:**
-- **`==` (Loose Equality)**: Compares values with type coercion. JavaScript tries to convert operands to the same type before comparing.
+- **`==` (Loose Equality)**: Compares values with type coercion. JavaScript tries to convert operands/values to the same type before comparing.
 - **`===` (Strict Equality)**: Compares both value and type without any type coercion. Much safer and recommended.
 
 **Examples:**
